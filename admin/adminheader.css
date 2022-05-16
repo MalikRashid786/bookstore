@@ -1,0 +1,75 @@
+.sidepanel {
+  height: 450px;
+  width: 0;
+  position: fixed; 
+  z-index: 1; 
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.7); 
+  overflow-x: hidden; 
+  padding-top: 60px;
+  transition: 0.5s; 
+}
+
+/* The sidepanel links */
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+.sidepanel a:hover {
+  color:#ffe082;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background:linear-gradient(to right,#757575,#ffe082);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+}
+
+.openbtn:hover {
+ background:linear-gradient(to right,#757575,#ffe082);
+}
+  #sp{
+      color: white;
+      font-size: 11px;
+      text-decoration: none;
+    }
+    #sp:hover{
+      color: white;
+      text-decoration:none; ;
+    }
+    #userinfo{
+      outline: white;
+    }
+    .list-group a{
+      background-color: #4B515D;
+      color: white;
+    }
+    .list-group-item{
+       background-color: #4B515D;
+    }
+    .list-group-item:hover{
+     background-color:#1C2331;
+      text-decoration: none;
+    }
+   a:hover{
+    color:white;
+   }
+ #navbarNav .active{
+    color: white
+   }

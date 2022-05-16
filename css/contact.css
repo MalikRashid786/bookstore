@@ -1,0 +1,66 @@
+
+@font-face {
+  font-family: "ElMessiri-SemiBold";
+  src: url("../fonts/el_messiri/ElMessiri-SemiBold.ttf");
+   }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "ElMessiri-SemiBold";
+}
+body
+{
+     background-image:url('../images/Grid.jpg');
+    background-size:100% 100%;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    
+}
+.contact{
+  background-color: rgba(0,0,0,0.3);
+  
+}
+#inputfiled{
+    width: 50%;
+    margin: 31px auto;
+    border-bottom: 1px solid;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#inputfiled input{
+    width: 50%;
+    border: none;
+    background:transparent;
+    outline: none;
+}
+::placeholder{
+    color: #ccc;
+}
+
+.btn1
+{
+    border-radius: 1.5rem;
+    margin: 40px auto 20px;
+    width: 50%;
+    display: block;
+    outline: none;
+    padding: 10px 0px;
+    background-color: #4B515D;
+    border:1px solid #fff;
+    color: #fff;
+    font-size: 16px;
+}
+.btn1:hover{
+   background-color:#1C2331;
+    color:#fff;
+}
+.message{
+    width: 100%;
+    height: 50px;
+    border:none;
+    background:transparent;
+    outline: none;
+}
+.address p{
+         font-size: 11x;
+}

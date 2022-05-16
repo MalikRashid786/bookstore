@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "ElMessiri-SemiBold";
+  src: url("../fonts/el_messiri/ElMessiri-SemiBold.ttf"); }
+body{
+   background-image:url('../images/wwd.jpg');
+    background-size:cover;
+    font-family: sans-serif;
+    background-attachment: fixed;
+    font-family: "ElMessiri-SemiBold";
+    overflow-x: hidden;
+}
+.container{
+    background-color: rgba(0,0,0,0.3);
+}
+.registrationleft{
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+}
+.registrationleft p{
+  text-transform: capitalize;
+}
+.registrationleft img{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 80px;
+    animation: mover 1s infinite alternate;
+}
+.registrationleft a{
+    text-decoration: none;  
+}
+.registrationright{
+border: none;
+border-top-left-radius: 10% 50%;
+border-bottom-left-radius: 10% 50%;
+text-align: center;
+background-color: rgba(0,0,0,0.4);
+margin: 2% auto;
+box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+margin-bottom: 10px;
+color: #555;
+}
+@keyframes mover{
+    0%{transform: translateY(0);}
+    100%{transform: translateY(20px);}
+}
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+#inputfiled{
+    width: 80%;
+    margin: 31px auto;
+    border-bottom: 1px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#inputfiled input{
+    width: 90%;
+    border: none;
+    background:transparent;
+    outline: none;
+    color: #fff;
+
+}
+::placeholder{
+    color: #ccc;
+}
+.registrationleft .btn,.registrationright .btn{
+
+    border-radius: 1.5rem;
+    margin: 40px auto 20px;
+    width: 60%;
+    display: block;
+    outline: none;
+    padding: 10px 0px;
+    background:rgba(0,0,0,0.2);
+    color: #fff;
+    border:1px solid #fff;
+    font-size: 16px;
+}
+a
+{
+    color: white;
+}
+a:hover{
+    color: white;
+}
+.eye{
+    position: absolute;
+}
+#hide1{
+    display: none;
+}
+#inputfiled a:hover{
+    color: white;
+}

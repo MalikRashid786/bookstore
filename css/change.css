@@ -1,0 +1,82 @@
+  @font-face {
+  font-family: "ElMessiri-SemiBold";
+  src: url("../fonts/el_messiri/ElMessiri-SemiBold.ttf"); }
+  @font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/montserrat/Montserrat-Regular.ttf"); }
+  @font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fonts/montserrat/Montserrat-SemiBold.ttf"); }
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "ElMessiri-SemiBold";
+}
+body{
+	background-image: url('../images/Grid.jpg');
+	background-size:cover;
+	font-family: sans-serif;
+	background-attachment: fixed;
+}
+#loginform{
+	margin:3% auto;
+	background-color: rgba(0,0,0,0.4);
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+	padding: 40px 0;
+	color: #fff;
+}
+
+h1{
+	text-align: center;
+	margin-bottom:40px;
+	margin-top: -20px;
+}
+#inputfiled{
+	width: 80%;
+	margin: 31px auto;
+	border-bottom: 1px solid;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+#inputfiled input{
+	width: 90%;
+	border: none;
+	background:transparent;
+	outline: none;
+	color: #fff;
+
+}
+::placeholder{
+	color: #ccc;
+}
+.btn1
+{
+	margin: 40px auto 20px;
+	width: 80%;
+	border-radius: 1.5rem;
+	display: block;
+	outline: none;
+	padding: 10px 0px;
+	background:transparent;
+	color: #fff;
+	border:1px solid #fff;
+	font-size: 16px;
+}
+.btn1:hover{
+	color: white;
+	background-color:rgba(0,0,0,0.5);
+}
+ .fa{
+	margin-right: 10px;
+}
+.eye{
+	position: absolute;
+}
+#hide1{
+	display: none;
+}
+#hide3{
+	display: none;
+}

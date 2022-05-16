@@ -1,0 +1,130 @@
+
+@font-face {
+  font-family: "ElMessiri-SemiBold";
+  src: url("../fonts/el_messiri/ElMessiri-SemiBold.ttf"); }
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/montserrat/Montserrat-Regular.ttf"); }
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fonts/montserrat/Montserrat-SemiBold.ttf"); }
+.slide img{
+  height: 400px;
+}
+body{
+	font-family: "ElMessiri-SemiBold";
+}
+/*-------------------------------content section------------------*/
+#content{
+   background-color: #f8f9fa;
+}
+.second{
+  margin-bottom: 10px;
+  margin-top: 10px;
+} 
+.second img{
+   height: 150px;
+}
+.second p{
+	font-size: 10px;
+}
+.second .badge{
+	font-size: 10px;
+	margin-top: -5px;
+}
+.second .sp{
+	font-size: 10px;
+}
+#btnmenu{
+	background-color: white;
+	font-family: sans-serif;
+}
+#btnmenu .btn{
+
+}
+.card:hover{
+  -webkit-box-shadow: -1px -3px 5px 0px rgba(10,9,10,0.93);
+  -moz-box-shadow: -1px -3px 5px 0px rgba(10,9,10,0.93);
+   box-shadow: -1px -3px 5px 0px rgba(10,9,10,0.93);
+   transform: translateY(-5px);
+   transition: 0.3s;
+}
+/* Dropdown Button */
+.dropbtn {
+  background-color:;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: none;
+
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+#banner .container{
+  background-image: url('../images/BHP-Week-31.jpg');
+  background-size: 100% 100%;
+  min-height: 400px;
+}
+.title::before{
+  content: ' ';
+  background:#ffe082;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(63px);
+}
+.title::after
+{
+  content: ' ';
+  background:#ffe082;
+  height:10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translateY(8px);
+}
+.spinner-wrapper{
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #fff;
+z-index: 999999;
+}

@@ -1,0 +1,82 @@
+#banner{
+	background-image: linear-gradient( to right, #4B515D,#1C2331);
+  	color: #fff;
+  	padding-top: 5%;
+  	margin-top: -15px;
+  }
+.spi{
+	font-size: 200px;
+}
+.shipping{
+	margin-top: 20px
+}
+.card span{
+	margin-top: 20px;
+	font-size: 25px
+}
+.ship{
+    background-color: #4B515D;
+    color: white;
+}
+.ship:hover{
+	 background-color: black;
+     color: white;
+}
+.shi{
+	background-color: #1C2331;
+	color: white;
+}
+.shi:hover{
+         background-color:black	 ;
+	     color: white;
+}
+/*-----------------our team-----------------------*/
+#our-team{
+	margin: 90px 0;
+}
+.our-team{
+	border-left: 4px solid #1C2331;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.our-team img{
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	margin: 0 10px;
+}
+.team-details{
+	display: inline-block;
+	font-size: 20px;
+}
+.title::before{
+  content: ' ';
+  background:#1C2331;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(63px);
+}
+.title::after
+{
+  content: ' ';
+  background:#1C2331;
+  height:10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translateY(8px);
+}
+#mission{
+	 background-image:url('../images/banne.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	min-height: 600px;
+}
+#mission ul li{
+	list-style-type: none;
+}

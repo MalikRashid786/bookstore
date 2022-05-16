@@ -1,0 +1,68 @@
+
+@font-face {
+  font-family: "ElMessiri-SemiBold";
+  src: url("../fonts/el_messiri/ElMessiri-SemiBold.ttf"); }
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/montserrat/Montserrat-Regular.ttf"); }
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fonts/montserrat/Montserrat-SemiBold.ttf"); }
+body{
+    background-image:url('../images/Grid.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: "ElMessiri-SemiBold";
+}
+.registrationright{
+border: none;
+background-color: rgba(0,0,0,0.4);
+box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+padding: 20px;
+text-align: center;
+margin-top: 40px;
+margin-bottom: 70px;
+border-top-left-radius: 10% 50%;
+border-bottom-left-radius: 10% 50%;
+color: #555;
+}
+.register-form{
+    padding: 10px;
+}
+h2{
+    color: white;
+}
+.registrationright .btn-primary
+{
+    float: right;
+    border-radius: 1.5rem;
+    border: none;
+    width: 120px;
+    background: #fff;
+    font-weight: 500;
+    color:black; 
+}
+a:hover{
+    color: #fff;
+}
+.registrationright .btn-primary:hover{
+color: white;
+background-color: black;
+}
+.fa-users{
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+
+}
+@keyframes mover{
+    0%{transform: translateY(0);}
+    100%{transform: translateY(20px);}
+}
+input[type="text"],input[type="number"],input[type="password"],input[type="file"],input[type="email"],{
+    background-color: transparent;
+    border-bottom: 1px solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
